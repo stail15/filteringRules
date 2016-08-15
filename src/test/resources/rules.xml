@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules>
+<rule name="a" type="child" weight="17"/>
+<rule name="a" type="root" weight="29"/>
+<rule name="b" type="sub" weight="56"/>
+<rule name="c" type="child" weight="99"/>
+<rule name="a" type="sub" weight="12"/>
+<rule name="c" type="sub" weight="99"/>
+<rule name="c" type="root" weight="99"/>
+<rule name="a" type="child" weight="34"/>
+<rule name="d" type="root" weight="45"/>
+<rule name="b" type="sub" weight="34"/>
+</rules>
+
