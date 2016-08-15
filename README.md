@@ -24,13 +24,12 @@
 ```
 
   As shown above, each rule element in file has three attributes:
+  
 | attribute | description|
-| ----------|------------|
+| ---|---|
 |"name"| - the rule name (not unique in input, but should be unique in output).|
-|"type"| - rule type can be one of 3 values: root, sub and child. The child rule is the most important; 
-         the sub is of average importance and then the root is the least important.|
-|"weight"| - the weight specifies the rule importance within same type. The greater the weight value is,
-           the more important the rule is. Weight is a positive integer.|
+|"type"| - rule type can be one of 3 values: root, sub and child. The child rule is the most important; the sub is of average importance and then the root is the least important.|
+|"weight"| - the weight specifies the rule importance within same type. The greater the weight value is, the more important the rule is. Weight is a positive integer.|
            
            
    The Filtering process:
