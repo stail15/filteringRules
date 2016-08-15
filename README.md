@@ -13,7 +13,7 @@
 
    The input file should be present in the following format: 
 
-<rules>
+{@code <rules>}
 <rule name="a" type="child" weight="17"/>
 <rule name="a" type="root" weight="29"/>
 <rule name="b" type="sub" weight="56"/>
