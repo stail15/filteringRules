@@ -3,6 +3,7 @@
    The result of execution is transformed into different sources - XML and temporary HTML files.
 
    The application is started from the command line with two parameters in the following form:
+   
      >java -jar [path\to\file\]FilteringRules.jar arg[0] arg[1] 
     where:
     arg[0] - path to input XML file;
