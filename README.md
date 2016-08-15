@@ -4,7 +4,9 @@
 
    The application is started from the command line with two parameters in the following form:
    
-     >java -jar [path\to\file\]FilteringRules.jar arg[0] arg[1] 
+    ```
+    >java -jar [path\to\file\]FilteringRules.jar arg[0] arg[1] 
+    ```
     where:
     arg[0] - path to input XML file;
     arg[1] - path to output XML file*;
@@ -12,13 +14,14 @@
 
 
    The input file should be present in the following format: 
-
-{@code <rules>}
+```
+<rules>
 <rule name="a" type="child" weight="17"/>
 <rule name="a" type="root" weight="29"/>
 <rule name="b" type="sub" weight="56"/>
 ......
 </rules>
+```
 
    As shown above, each rule element in file has three attributes:
 "name" - the rule name (not unique in input, but should be unique in output);
